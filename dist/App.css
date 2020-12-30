@@ -19,10 +19,11 @@ button {
 
 .result-screen span:first-child {
   display: inline-block;
-  direction: rtl;
   width: 209px;
   padding: 10px;
+  direction: rtl;
   background-color: #c2f4ff;
+  overflow-x: hidden;
 }
 
 .result-screen span:last-child {
