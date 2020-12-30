@@ -1,11 +1,10 @@
 {
-  "name": "Calculator",
+  "name": "calculator-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx babel src --watch --out-dir /xampp/htdocs/calculator2 --presets=@babel/preset-react",
-    "build": "npx babel src --presets=@babel/preset-react"
+    "build": "npx babel src -d dist --presets=@babel/preset-react"
   },
   "keywords": [],
   "author": "",
