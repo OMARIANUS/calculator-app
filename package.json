@@ -1,0 +1,23 @@
+{
+  "name": "Calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx babel src --watch --out-dir /xampp/htdocs/calculator2 --presets=@babel/preset-react",
+    "build": "npx babel src --out-dir ./ --presets=@babel/preset-react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/plugin-transform-template-literals": "^7.12.1",
+    "@babel/preset-react": "^7.12.10"
+  },
+  "devDependencies": {},
+  "description": ""
+}
