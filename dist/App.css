@@ -24,8 +24,11 @@ button {
   background-color: #c2f4ff;
 }
 
-.result-screen span:first-child {
+.result-screen span {
   display: inline-block;
+}
+
+.result-screen span:first-child {
   width: 170px;
   overflow-x: hidden;
 }
