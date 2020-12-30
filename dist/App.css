@@ -17,19 +17,23 @@ button {
   color: white;
 }
 
-.result-screen span:first-child {
-  display: inline-block;
+.result-screen {
+  direction: rtl;
   width: 209px;
   padding: 10px;
-  direction: rtl;
   background-color: #c2f4ff;
+}
+
+.result-screen span:first-child {
+  display: inline-block;
+  width: 170px;
   overflow-x: hidden;
 }
 
 .result-screen span:last-child {
   position: fixed;
   left: 14px;
-  padding: 10px 5px;
+  padding: 0px 5px;
 }
 
 .calc {
